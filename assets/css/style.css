@@ -95,6 +95,10 @@
 
 ***/
 
+.three-item_carousel .swiper-slide {
+	height: 550px;
+}
+
 .slider-one{
 	position:relative;
 }
@@ -109,6 +113,8 @@
 	z-index: 10;
 	clip-path: polygon(15% 60%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
+
+
 
 .slider-one .swiper-slide{
 	position:relative;
@@ -517,6 +523,7 @@
 	position: relative;
 	overflow: hidden;
 	border-radius: 8px;
+	height: 100%;
 	background: rgba(var(--white-color-rgb), 0.10);
     background: linear-gradient(to bottom, rgba(var(--white-color-rgb), 0.10) 0%, var(--color-two) 100%);
 }
@@ -7926,7 +7933,7 @@
 	color: white;
 	font-weight: 900;
 	font-variation-settings: "wdth" 125;
-	font-size: 55pt;
+	font-size: 54pt;
 	max-width: 700px;
 	text-align: left;
 	line-height: 84px;
